@@ -74,7 +74,7 @@ We strive to create a welcoming and inclusive environment for all contributors. 
 
 ## Credits
 
-This project is maintained by [Your Name](link_to_your_github_profile).
+This project is maintained by [Shubham Parmar](https://github.com/coderxploit).
 
 ## License
 
