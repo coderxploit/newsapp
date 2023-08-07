@@ -1,0 +1,20 @@
+.news-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3-column grid */
+    grid-gap: 20px;
+    max-width: 1140px; /* Adjust the maximum width as per your preference */
+    margin: 0 auto; /* Center the container horizontally */
+    padding: 30px 30px; /* Add margins of about 30px on both ends */
+  }
+  
+  @media (max-width: 991px) {
+    .news-container {
+      grid-template-columns: repeat(2, 1fr); /* Change to 2-column grid on smaller screens */
+    }
+  }
+  
+  @media (max-width: 767px) {
+    .news-container {
+      grid-template-columns: repeat(1, 1fr); /* Change to single-column grid on even smaller screens */
+    }
+  }
